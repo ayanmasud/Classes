@@ -1,0 +1,15 @@
+#include <iostream>
+#include "movie.h"
+
+movie::movie() {
+
+}
+char* movie::getDirector() {
+  return director;
+}
+int movie::getDuration() {
+  return duration;
+}
+char* movie::getRating() {
+  return rating;
+}

@@ -1,0 +1,16 @@
+#include <iostream>
+#include "media.h"
+using namespace std;
+
+class videogames : public media {
+ public:
+  videogames();
+  char* getPublisher();
+  char* getRating();
+  void print();
+  
+  char publisher[80];
+  char rating[80];
+
+  ~videogames();
+};

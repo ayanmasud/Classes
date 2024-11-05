@@ -1,0 +1,20 @@
+#include <iostream>
+#include "videogames.h"
+
+videogames::videogames() {
+  
+}
+char* videogames::getPublisher() {
+  return publisher;
+}
+char* videogames::getRating() {
+  return rating;
+}
+void videogames::print() {
+  cout << "Videogame: Title: " << getTitle() << ", Year: " << getYear() << ", Publisher: " << getPublisher() << ", Rating: " << getRating() << endl;
+}
+
+// destructor
+videogames::~videogames(){
+
+}
